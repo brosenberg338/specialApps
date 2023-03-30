@@ -1,0 +1,40 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+
+a {
+  color: #00B7FF;
+}
+
+input {
+  width: 30%;
+  padding:1.5em;
+  margin:1em;
+  justify-content: center;
+}
+
+tr:nth-child(odd)  {
+  color:lightsteelblue;
+
+}
+tr:nth-child(even) {
+  color:orange;
+
+}
+
+table tr td {
+ 
+  margin: 1.5em;
+  padding:1.5em;
+  border: 2px solid black;
+}
+
+table {
+  width: 80%;
+  margin: 1.5em;
+  border: 2px solid black;
+  border-collapse: collapse;
+ 
+}

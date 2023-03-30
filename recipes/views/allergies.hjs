@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>{{ title }}</title>
+    <link rel='stylesheet' href='/stylesheets/allergies.css' />
+</head>
+
+<body>
+    <h1>{{ title }}</h1>
+
+    <form action="" method="post">
+        <input type="checkbox" id="allergy1" name="allergy1" value="fish">
+        <label for="allergy1"> allergic to fish</label><br>
+        <input type="checkbox" id="allergy2" name="allergy2" value="peanuts">
+        <label for="allergy2"> allergic to peanuts</label><br>
+        <input type="checkbox" id="allergy3" name="allergy3" value="dairy">
+        <label for="allergy3"> allergic to dairy</label><br>
+        <input type="submit">
+    </form>
+    <script src="allergies.js"></script>
+</body>
+
+</html>

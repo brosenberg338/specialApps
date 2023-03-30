@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>{{ title }}</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+
+<body>
+    <h1>{{ title }}</h1>
+
+
+    <form method="post">
+        <label for="recipeName">Please enter recipe name:</label>
+        <input  type="text" required  name="recipeName" id="recipeName"> <br>
+
+        <label for="ingredient1"> ingredient:</label>
+        <input type="text" required name="ingredient1" id="ingredient1"> <br>
+
+        <label for="ingredient2"> ingredient:</label>
+        <input type="text" required name="ingredient2" id="ingredient2"> <br>
+
+        <label for="ingredient3"> ingredient:</label>
+        <input type="text" required name="ingredient3" id="ingredient3"> <br>
+
+        <label for="ingredient4"> ingredient:</label>
+        <input type="text" required name="ingredient4" id="ingredient4"> <br>
+        
+
+        <input type="submit" value="submit recipe">
+
+
+
+    </form>
+
+</body>
+
+</html>

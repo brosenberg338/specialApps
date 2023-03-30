@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ title }}</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>{{ title }}</h1>
+    <p>Welcome to {{ title }}</p>
+
+   <a href="./addRecipe">Click here to add a recipe</a>
+    <table>
+       <thead>
+        <th>Recipe Name</th>
+        <th>Ingredient #1</th>
+        <th>Ingredient #2</th>
+        <th>Ingredient #3</th>
+        <th>Ingredient #4</th>
+       </thead>
+     {{#recipes}}   
+     <tr>
+     <td>{{recipeName}}</td>
+     <td>{{ingredient1}}</td>
+    <td>{{ingredient2}}</td>
+    <td>{{ingredient3}}</td>
+    <td>{{ingredient4}}</td>
+  <!--  <td> <a href="../routes/delete.js">Delete</td>  -->
+    </tr>  
+     
+     {{/recipes}}
+  </table>
+  </body>
+</html>
